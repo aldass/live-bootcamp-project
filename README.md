@@ -27,9 +27,15 @@ cargo watch -q -c -w src/ -w assets/ -x run
 visit http://localhost:3000
 
 ## Run servers locally (Docker)
+
+### Linux | Mac
 ```bash
-docker compose build
-docker compose up
+./docker.sh
+```
+
+### Windows
+```powershell
+./docker.ps1
 ```
 
 visit http://localhost:8000 and http://localhost:3000
